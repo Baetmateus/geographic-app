@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2e8fc7;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* navbar */
+.navbar-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* selects */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Agora o campo estará à direita */
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#city-search {
+    width: 300px; /* Tamanho reduzido */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Fonte menor */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+}
